@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Contacts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+
+<body class="w3-theme-l1">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-theme-l4" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-theme" onclick="w3_close()">Close &times;</button>
+            <a class="w3-bar-item w3-button" href="index.html">Home</a>
+            <a class="w3-bar-item w3-button" href="initial.html">Initial Design</a>
+            <a class="w3-bar-item w3-button" href="upgrades.html">Upgrades</a>
+            <a class="w3-bar-item w3-button" href="future_upgrades.html">Future Upgrades</a>
+            <a class="w3-bar-item w3-button" href="printing.html">Bringing it to life</a>
+            <a class="w3-bar-item w3-button" href="contacts.html">Contact</a>
+        </div>
+
+<div id="main">
+
+    <div class="w3-theme-d4">
+      <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+    </div>
+
+    <div class="w3-display-container w3-card-4 w3-hide-small w3-hide-medium">
+        <h1 class="w3-display-topleft w3-container">Contact information</h1>
+        <h3 class="w3-display-bottomleft w3-container">For any questions, please contact me</h3>
+        <img src="imgs/lfo_banner.jpg" alt="splash1" style="width: 100%">
+    </div>
+
+    <div class="w3-hide-large">
+        <img src="imgs/lfo_banner.jpg" alt="splash1" style="width: 100%">
+        <div class="w3-card-4 w3-container w3-theme-d2">
+            <h1 class="" style="margin-top: 0px;">Contact information</h1>
+            <h3 class="">For any questions, please contact me</h3>
+        </div>
+    </div>
+
+    <div class="w3-padding w3-center">
+        <div class="w3-card-4 w3-round-xlarge w3-padding w3-theme-l4">
+            <h1>About me</h1>
+            <p class="">My name is Greg Haefele, I am a 26 year old Engineering student at UNH Manchester. I have an associates in Mechanical Design Technology from Nashua Community College and I'm currently working on my Bachelors degree and I have been working with various CADD programs for the past 10 years or so. This robot has been a passion project for me during that time, starting all the way back in high-school and it started as just a proof of concept. During my time at NCC and UNH I have gathered skills the create a working model that's actually physically possible, when it was first created most of the parts couldn't actually fit together. The concept came to me from a show that I watched as a kid in high-school and I thought it would be cool to make in CADD, I wasn't worried about if the robot could actually fit together or not. I am still working on this page and this project in general so if you have any questions please feel free to contact me below.</p>
+            <div class="w3-button w3-teal w3-round-xlarge">
+                <a href="mailto:ness64greg@comcast.net" style="text-decoration: none;">ness64greg@comcast.net</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>   
+
+</body>
+
+</html>

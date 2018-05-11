@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+
+
+<body class="w3-theme-l1">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-theme-l4" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-theme" onclick="w3_close()">Close &times;</button>
+            <a class="w3-bar-item w3-button" href="index.html">Home</a>
+            <a class="w3-bar-item w3-button" href="initial.html">Initial Design</a>
+            <a class="w3-bar-item w3-button" href="upgrades.html">Upgrades</a>
+            <a class="w3-bar-item w3-button" href="future_upgrades.html">Future Upgrades</a>
+            <a class="w3-bar-item w3-button" href="printing.html">Bringing it to life</a>
+            <a class="w3-bar-item w3-button" href="contacts.html">Contact</a>
+        </div>
+
+<div id="main">
+
+    <div class="w3-theme-d4">
+      <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+    </div>
+
+    <div class="w3-display-container w3-card-4 w3-hide-small w3-hide-medium">
+        <h1 class="w3-display-topleft w3-container">A brief intro to CADD and one of my early CADD project</h1>
+        <h3 class="w3-display-bottomleft w3-container">CADD; Computer aided Drafting and Design</h3>
+        <img src="imgs/lfo_banner.jpg" alt="splash1" style="width: 100%">
+    </div>
+
+    <div class="w3-hide-large">
+        <img src="imgs/lfo_banner.jpg" alt="splash1" style="width: 100%">
+        <div class="w3-card-4 w3-container w3-theme-d2">
+            <h1 class="" style="margin-top: 0px;">A brief intro to CADD and one of my early CADD project</h1>
+            <h3 class="">CADD; Computer aided Drafting and Design</h3>
+        </div>
+    </div>
+
+    <div class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <div class="w3-container w3-padding-16 w3-theme-l4 w3-card-4 w3-round-xlarge" style="width: 99%; margin: auto;">
+            <div class="w3-row-padding w3-hide-medium w3-hide-small">
+                <div class=" w3-theme-l4 w3-half w3-padding w3-round-xlarge">
+                    <p class="w3-justify">In high-school I designed a toy robot that was loosely based on this one, which is from a TV show called Eureka Seven. This particular robot was called the TypeR606 and it is what's known as a "LFO" which stands for "Light finding operation" and is a reference to a type of audio machine called a Low Frequency Oscillator. This name was also a reference to the fact that the robots used waves of transparent light particles as both a fuel source and a way to "surf" in the air with their boards.</p>
+                    <div class="w3-row-padding">
+                        <img class="w3-half" src="imgs/r606lfo.jpg" alt="typer606">
+                        <p class="w3-half w3-justify">In the show, these robots were piloted both by civilians and for military purposes and used these boards that they called Ref Boards for short range transportation. Ref Board was short for Reflection Boards and they essentially surfed on waves of light particles. I really liked the design of the robots so I wanted to see if I could make it in CADD as a proof of concept and it has become a passion project that slowly evolved into what it is now.</p>
+                    </div>
+                    <p class="w3-justify">Before I get into how the LFO was created and the design process, a brief explanation of what CADD is and what it's used for is in order.</p>
+                </div>
+
+                <div class="w3-half">
+                    <div class="w3-hide-small w3-hide-medium">
+                        <div class=" w3-theme-l4 w3-round-xlarge">
+                            <div class="w3-bar w3-theme-d4 w3-round-xlarge w3-center">
+                                <button class="w3-bar-item w3-button" onclick="openTab('what')" style="width: 33%;">What is CADD?</button>
+                                <button class="w3-bar-item w3-button" onclick="openTab('uses')" style="width: 33%;">What are its uses?</button>
+                                <button class="w3-bar-item w3-button" onclick="openTab('make')" style="width: 34%;">What can it make?</button>
+                            </div>
+                            <div id="what" class="tab w3-animate-opacity w3-center w3-row-padding">
+                                <img class="w3-padding" src="imgs/bearing.jpg" alt="bearing" style="width: 80%;">
+                                <p class="w3-left-align">CADD, which stands for "Computer Aided Drafting and Design", is the name of the type of software that engineers use. There are a vast amount of softwares that range from educational to professional. This project, and my first CADD software, was done in Autodesk Inventor but there are many more types out there. The biggest breakthrough in the past few years has been 3D printing where a model is printed with heated plastic for a scale model of the model, these models can be used as prototypes or just as cool knick knacks to have around.</p>
+                                <div class="w3-padding">
+                                    <a class="w3-button w3-teal w3-round-large w3-margin" href="https://www.autodesk.com/products/inventor/overview">Autodesk Inventor's main site</a>
+                                    <a class="w3-button w3-teal w3-round-large" href="https://www.solidworks.com/">SolidWorks' main site</a>
+                                </div>
+                                <a class="w3-button w3-teal w3-round-large" href="https://grabcad.com/library">Grabcad, a popular library for CAD files</a>
+                            </div>
+
+                            <div id="uses" class="tab w3-animate-opacity w3-center w3-row-padding" style="display:none;">
+                                <img class="w3-padding" src="imgs/engine.jpg" alt="Engine" style="width: 90%;">
+                                <p class="w3-left-align">CADD software can be used for many different things, each part starts as just that, an individual part. You can then put all the parts together to make an assembly and can even add movement to the assemblies. The uses for CADD are vast and some may even be a bit surprising. With different CADD programs you can make:</p>
+                                <ol class="w3-left-align">
+                                    <li>Individual parts like gears</li>
+                                    <li>Full assemblies like a bicycle</li>
+                                    <li>Game development</li>
+                                    <li>Industry projects like cars and assembly robots</li>
+                                </ol>
+                            </div>
+                            <div id="make" class="tab w3-animate-opacity w3-center w3-row-padding" style="display:none;">
+                                <img class="w3-padding" src="imgs/explosion1.jpg" alt="LFO explosion view" style="width: 90%;">
+                                <p class="w3-left-align">Just about everything has gone through the hands of an engineer at one point and has spent it's fair share of time in a CADD software. If you can think of it, then it was virtual at one point!</p>
+                                <ul class="w3-left-align">
+                                    <li>Anything from small gears to large rocket engines can be made in a single software</li>
+                                    <li>Toys and even boardgames have their start in CADD</li>
+                                    <li>Full assemblies start as individual parts and are put together kind of like Lego</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="w3-padding w3-hide-large">
+            <div class="w3-card-4 w3-theme-l4 w3-padding w3-center w3-round-xlarge">
+                <p class="w3-left-align">In high-school I designed a toy robot that was loosely based on this one, which is from a TV show called Eureka Seven. This particular robot was called the TypeR606 and it is what's known as a "LFO" which stood for "Light finding operation." This name was a reference to the fact that the robots used waves of transparent light waves as both a fuel source and a way to "surf" in the air with their boards.</p>
+                <div class="">
+                    <img class="" src="imgs/r606lfo.jpg" alt="TypeR606">
+                    <p class="w3-left-align">In the show, these robots were piloted both by civilians and for military purposes and used these boards that they called Ref Boards for short range transportation. Ref Board was short for Reflection Boards and they essentially surfed on waves of light particles. I really liked the design of the robots so I wanted to see if I could make it in CADD as a proof of concept and it has become a passion project that slowly evolved into what it is now.</p>
+                </div>
+                <p class="w3-left-align">Before I get into how the LFO was created and the design process, a brief explanation of what CADD is and what it's used for is in order.</p>
+            </div>
+        </div>
+
+        <div class="w3-hide-large w3-padding">
+            <div class="w3-card-4 w3-theme-l4 w3-round-xlarge" style="margin:auto;">
+                <div class="w3-bar w3-theme-d4 w3-round-xlarge">
+                    <button class="w3-bar-item w3-button" onclick="openTab('what')" style="width: 33%;">What is CADD?</button>
+                    <button class="w3-bar-item w3-button" onclick="openTab('uses')" style="width: 33%;">What are its uses?</button>
+                    <button class="w3-bar-item w3-button" onclick="openTab('make')" style="width: 34%;">What can it make?</button>
+                </div>
+                <div id="what-m" class="tab w3-animate-opacity w3-center w3-row-padding">
+                    <img class="w3-padding" src="imgs/bearing.jpg" alt="bearing" style="width: 90%;">
+                    <p class="w3-left-align">CADD, which stands for "Computer Aided Drafting and Design", is the name of the type of software that engineers use. There are a vast amount of softwares that range from educational to professional. This project, and my first CADD software, was done in Autodesk Inventor but there are many more types out there. The biggest breakthrough in the past few years has been 3D printing where a model is printed with heated plastic for a scale model of the model, these models can be used as prototypes or just as cool knick knacks to have around.</p>
+                    <div class="w3-padding">
+                        <a class="w3-button w3-teal w3-round-large" href="https://www.autodesk.com/products/inventor/overview">Autodesk Inventor's main site</a>
+                        <a class="w3-button w3-teal w3-round-large w3-margin" href="https://www.solidworks.com/">SolidWorks' main site</a>
+                        <a class="w3-button w3-teal w3-round-large" href="https://grabcad.com/library">Grabcad <br>a popular library for CAD files</a>
+                    </div>
+                </div>
+
+                <div id="uses-m" class="tab w3-animate-opacity w3-center w3-row-padding" style="display:none;">
+                    <img class="w3-padding" src="imgs/engine.jpg" alt="Engine" style="width: 90%;">
+                    <p class="w3-left-align">CADD software can be used for many different things, each part starts as just that, an individual part. You can then put all the parts together to make an assembly and can even add movement to the assemblies. The uses for CADD are vast and some may even be a bit surprising. With different CADD programs you can make:</p>
+                    <ol class="w3-left-align">
+                        <li>Individual parts like gears</li>
+                        <li>Full assemblies like a bicycle</li>
+                        <li>Game development</li>
+                        <li>Industry projects like cars and assembly robots</li>
+                    </ol>
+                </div>
+                <div id="make-m" class="tab w3-animate-opacity w3-center w3-row-padding" style="display:none;">
+                    <img class="w3-padding" src="imgs/explosion1.jpg" alt="LFO explosion view" style="width: 90%;">
+                    <p class="w3-left-align">Just about everything has gone through the hands of an engineer at one point and has spent it's fair share of time in a CADD software. If you can think of it, then it was virtual at one point!</p>
+                    <ul class="w3-left-align">
+                        <li>Anything from small gears to large rocket engines can be made in a single software</li>
+                        <li>Toys and even boardgames have their start in CADD</li>
+                        <li>Full assemblies start as individual parts and are put together kind of like Lego</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-padding w3-hide-medium w3-hide-small" style="width: 50%; margin: auto;">
+        <div class="w3-card-4 w3-center w3-theme-l4 w3-round-xlarge w3-padding">
+            <h2>This was the final result of my first iteration of my LFO</h2>  
+            <img src="imgs/lfo4.bmp" alt="type 505 alt" style="width: 100%;">
+            <p class="">I initially started this project to just see if I could actually do this and it quickly grew to one of the my favorite projects that I have worked on. The initial designs are nothing spectacular and have a lot wrong with them, but the fact I was able to pull it off was one of my proudest moments. One of the biggest problems I faced was getting the cockpit canopy to sit properly in the body of the robot. Eventually I settled with it sitting slightly off centered but it was under the body so it wasn't noticeable.</p>
+        </div>     
+    </div>
+
+    <div class="w3-padding w3-hide-large" style="margin: auto;">
+        <div class="w3-card-4 w3-center w3-theme-l4 w3-round-xlarge w3-padding">
+            <h2>This was the final result of my first iteration of my LFO</h2>  
+            <img src="imgs/lfo4.bmp" alt="type 505 alt" style="width: 100%;">
+            <p class="">I initially started this project to just see if I could actually do this and it quickly grew to one of the my favorite projects that I have worked on. The initial designs are nothing spectacular and have a lot wrong with them, but the fact I was able to pull it off was one of my proudest moments. One of the biggest problems I faced was getting the cockpit canopy to sit properly in the body of the robot. Eventually I settled with it sitting slightly off centered but it was under the body so it wasn't noticeable.</p>
+        </div>     
+    </div>
+
+</div>
+
+<script>
+
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+function openTab(partName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(partName).style.display = "block";  
+}
+
+function openTab_m(partName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(partName).style.display = "block";  
+}
+</script>   
+
+</body>
+
+</html>
